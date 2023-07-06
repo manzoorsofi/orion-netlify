@@ -145,3 +145,8 @@
 		top: 125px;
 	}
 }
+@media (max-width: 1441px) {
+	.roww {
+		top: 445px;
+	}
+}
