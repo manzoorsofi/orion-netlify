@@ -3,6 +3,18 @@
 	padding: 0;
 	/* overflow: hidden; */
 }
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .parent {
 	overflow: auto; /* This enables scrolling */
 	height: 100vh; /* Set a fixed height for the container */
@@ -96,7 +108,7 @@
 }
 .roww {
 	position: fixed;
-	top: 500px;
+	top: 490px;
 }
 @media only screen and (max-width: 991px) and (min-width: 576px) {
 	.oye {
