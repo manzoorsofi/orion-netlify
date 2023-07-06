@@ -1,0 +1,12 @@
+<svg class="another-svg" xmlns="http://www.w3.org/2000/svg" width="129.325"
+                  height="14" viewBox="0 0 129.325 14">
+                  <g id="Group_180" data-name="Group 180" transform="translate(-289 -2423.602)">
+                    <text id="Know_More" data-name="Know More" transform="translate(388 2434.602)" fill="#fff"
+                      font-size="14" font-family="Gilroy-Bold, Gilroy" font-weight="700" letter-spacing="0.12em">
+                      <tspan x="-98" y="0">KNOW MORE</tspan>
+                    </text>
+                    <path id="arrow_right_copy" data-name="arrow right copy"
+                      d="M1501.655,680.625h10.131l-3.44,3.308a.608.608,0,0,0,0,.884.668.668,0,0,0,.919,0l4.55-4.375a.608.608,0,0,0,0-.884l-4.55-4.375a.668.668,0,0,0-.919,0,.608.608,0,0,0,0,.884l3.44,3.308h-10.131a.625.625,0,1,0,0,1.25Z"
+                      transform="translate(-1095.68 1749.602)" fill="#fff" />
+                  </g>
+                </svg>

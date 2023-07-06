@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/cinema.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-bg navbar-light ">
+    <div class="container-fluid d-flex justify-content-between align-items-center navs-height">
+
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/logo.png" alt="your-image" width="140" height="40"
+          class="d-inline-block align-text-top  logo-logo">
+      </a>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-between align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-001" href="#">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001 href=" #">Entertainment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001 href=" #">Events</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-001 href=" #">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001 href=" #">Gift card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001 href=" #">Mall Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001 href=" #">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001 href=" #"><img class="magnify-icon" src="images/svgs/search1.svg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row p-3">
+      <div class="col-lg-6 col-sm-12 d-flex justify-content-center ">
+        <img class="magnify-icon" src="images/svgs/search.svg" alt="" srcset="">
+        <input class="searchbox" placeholder="Search by category, brand or product" type="text">
+      </div>
+      <div class="col-lg-2 col-sm-12 d-flex justify-content-lg-end ">
+        <span class="text-header">
+          orion mall</span>
+
+        <div class="dropdown  position-relative">
+          <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+          <div class="dropdown-content dropdown-small justify-content-center align-content-center" id="dropdownContent">
+            <!-- Dropdown content goes here -->
+            <a href="#">Avenue Mall</a>
+            <a href="#">Uptown Mall</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-start">
+        <span class="text-011">
+          orion mall at
+          brigade
+          gateway</span>
+
+        <div class="dropdown ">
+          <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+          <div class="dropdown-content dropdown-small justify-content-center align-content-center" id="dropdownContent">
+            <!-- Dropdown content goes here -->
+            <a href="#">Avenue Mall</a>
+            <a href="#">Uptown Mall</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="row">
+      <img class="con-1" src="images/cinema-bg.png">
+      <img class="con-2" src="images/pvr.png" alt="">
+      <p class="text-1 offset-lg-2 col-sm-12 col-12  align-content-sm-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </p>
+    </div>
+  </div>
+  <section class="border-danger">
+    <div class="container con-3">
+      <div class="row">
+        <div class="btn-group col-lg-4 border-black">
+          <button class="btn btn-warning">Now Showing</button>
+          <button class="btn btn-2 ">Upcoming Movies</button>
+        </div>
+
+      </div>
+    </div>
+    <!-- for small phones only -->
+    <div class="container mt-4 d-md-none">
+      <div class="row">
+        <div class=" offset-8 col-4" style="margin-bottom: -15px;">
+          <!-- Button trigger modal -->
+          <button type="button " class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Filters
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-sm-down">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Filters</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                  <div class="d-flex align-items-start h-100">
+                    <div style="padding: 20px 15px; background-color: #e8e8e8;"
+                      class="h-100 nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                      aria-orientation="vertical">
+                      <button class="nav-link active " id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">Languages</button>
+                      <button class="nav-link mt-3" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">Format</button>
+                      <button class="nav-link mt-3" id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">Genres</button>
+                      <button class="nav-link mt-3" id="v-pills-settings-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                        aria-selected="false">Timings</button>
+                    </div>
+                    <div style="margin-right: 1rem;" class="h-100 tab-content w-100" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <!-- first tabs data -->
+                        <div style="border: none;" class="card">
+                          <div class="card-body">
+                            <h5 class="mb-3 font-weight-bold">Languages</h5>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label text-09" for="checkbox1">
+                                Telugu
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox2">
+                              <label class="form-check-label" for="checkbox2">
+                                English
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox3">
+                              <label class="form-check-label" for="checkbox3">
+                                Malayalam
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox4">
+                              <label class="form-check-label" for="checkbox4">
+                                Gujrati
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox5">
+                              <label class="form-check-label" for="checkbox5">
+                                Hindi
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox6">
+                              <label class="form-check-label" for="checkbox6">
+                                Marathi
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox7">
+                              <label class="form-check-label" for="checkbox7">
+                                Hinglish
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox8">
+                              <label class="form-check-label" for="checkbox8">
+                                Japanese
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox8">
+                              <label class="form-check-label" for="checkbox8">
+                                Tamil
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox8">
+                              <label class="form-check-label" for="checkbox8">
+                                Kannada
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox8">
+                              <label class="form-check-label" for="checkbox8">
+                                Punjabi
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- first tabs data ends -->
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <!-- 2nd tabs data starts here  -->
+                        <div style="border: none;" class="card">
+                          <div class="card-body">
+                            <h5 class="mb-3 font-weight-bold">Format</h5>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                All
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                IMAX 3D
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                3D
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2nd tabs data ends here -->
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <!-- 2nd tab data starts  -->
+                        <div style="border: none;" class="card">
+                          <div class="card-body">
+                            <h5 class="mb-3 font-weight-bold">Genres</h5>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Drama
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Action
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Comedy
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Thriller
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Adventure
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Romance
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Fantasy
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2nd tab data ends -->
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        <!-- 4th tabs data starts here -->
+                        <div style="border: none;" class="card">
+                          <div class="card-body">
+                            <h5 class="mb-3 font-weight-bold">Timings</h5>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Morning
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Afternoon
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Evening
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="checkbox1">
+                              <label class="form-check-label" for="checkbox1">
+                                Night
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 4th tabs data ends here  -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="justify-content: space-between;" class="modal-footer">
+                  <div class="prods">
+                    231 products found
+                  </div>
+                  <button type="button" class="btn btn-warning">Apply</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- for small phone only emnds  -->
+    <!-- main container -->
+    <div class="container">
+      <div class="row mt-5 justify-content-evenly">
+        <div class="col-md-2 d-none d-lg-block">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="mb-3 font-weight-bold">Languages</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label text-09" for="checkbox1">
+                  Telugu
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">
+                  English
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox3">
+                <label class="form-check-label" for="checkbox3">
+                  Malayalam
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox4">
+                <label class="form-check-label" for="checkbox4">
+                  Gujrati
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox5">
+                <label class="form-check-label" for="checkbox5">
+                  Hindi
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox6">
+                <label class="form-check-label" for="checkbox6">
+                  Marathi
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox7">
+                <label class="form-check-label" for="checkbox7">
+                  Hinglish
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox8">
+                <label class="form-check-label" for="checkbox8">
+                  Japanese
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox8">
+                <label class="form-check-label" for="checkbox8">
+                  Tamil
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox8">
+                <label class="form-check-label" for="checkbox8">
+                  Kannada
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox8">
+                <label class="form-check-label" for="checkbox8">
+                  Punjabi
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- number two starts -->
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="mb-3 font-weight-bold">Format</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  All
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  IMAX 3D
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  3D
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- number two ends -->
+          <!-- number three starts -->
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="mb-3 font-weight-bold">Timings</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Morning
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Afternoon
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Evening
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Night
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- number three ends -->
+          <!-- number four starts -->
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="mb-3 font-weight-bold">Genres</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Drama
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Action
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Comedy
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Thriller
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Adventure
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Romance
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                  Fantasy
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- number four ends -->
+        </div>
+        <div class="col-md-9">
+          <div class="row justify-content-evenly">
+            <!-- first movie row starts -->
+            <div class="col-lg-3 col-sm-6 col-10">
+              <div class="card">
+                <img src="images/movie1.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">The Kerala Story</p>
+                  <p class="card-text small text-02">A | Hindi,Telugu</p>
+                  <p class="text-bold text-underline mt-4 mb-0  text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="col-lg-3 col-sm-6 col-10 card-movies">
+              <div class=" card ">
+                <img src="images/movie2.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">Fast X</p>
+                  <p class="card-text small text-02">UA | Hindi,English,Telugu</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <!-- 4th card -->
+            <div class="col-lg-3 col-sm-6 col-10 card-movies">
+              <div class="card">
+                <img src="images/movie3.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">2018</p>
+                  <p class="card-text small text-02">A | Hindi,Telugu</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <!-- trail -->
+
+            <!-- trail -->
+          </div>
+          <!-- first movie row ends -->
+          <!-- try -->
+          <div class="row justify-content-evenly mt-5">
+            <!-- second movie row starts -->
+            <div class="col-lg-3 col-sm-6 col-10 ">
+              <div class="card">
+                <img src="images/movie4.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">Guardians of Galaxy 3</p>
+                  <p class="card-text small text-02">A | Hindi,Telugu</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 card-movies">
+              <div class="card">
+                <img src="images/movie5.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">Pichaikkaran 2</p>
+                  <p class="card-text small text-02">A | Hindi,Telugu</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 card-movies">
+              <div class="card">
+                <img src="images/movie6.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">ponniyin selven part-2</p>
+                  <p class="card-text small text-02">A | Hindi, Telugu, English</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- second movie row ends -->
+          <div class="row justify-content-evenly mt-5">
+            <!-- second movie row starts -->
+            <div class="col-lg-3 col-sm-6 col-10 ">
+              <div class="card">
+                <img src="images/movie7.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">Daredevil Mushtafa</p>
+                  <p class="card-text small text-02">U | Kannada</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 card-movies">
+              <div class="card">
+                <img src="images/movie8.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">Sreemanta</p>
+                  <p class="card-text small text-02">A | Kannada</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 card-movies ">
+              <div class="card">
+                <img src="images/movie9.png" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text text-01">IB72</p>
+                  <p class="card-text small text-02">A | Hindi</p>
+                  <p class="text-bold text-underline mt-4 mb-0 text-03 slideButton">SHOW TIMING</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- second movie row ends -->
+          <div class="row mt-5  justify-content-center">
+            <button class="button-011">Show All Movies <img src="images/svgs/down.svg"> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section class="grey">
+    <div class="container text-center text-md-start mt-5 text-90">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+
+          <!-- <h6 class="text-uppercase fw-bold mb-4 text-dark">Contact</h6> -->
+          <p class="text-decoration-none text-white"> Modern, multilevel mall featuring popular chain stores, global
+            dining & an
+            artificial lake.</p>
+
+
+          <p class="text-decoration-none text-white"> Dr Rajkumar Rd,
+            Rajajinagar, Bengaluru, Karnataka 560055
+          </p>
+          <p class="text-decoration-none text-white"> 080672 82222</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+
+          <p>
+            <a href="#" class="text-decoration-none text-white">Brands</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">Dine</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">ENTERTAINMENT</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">Events</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <p>
+            <a href="#!" class="text-decoration-none text-white">Offers</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">Mall map</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">Contact</a>
+          </p>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+
+          <p class="text-decoration-none text-white">
+            Do You Feedback For us?<br /><span class="text-91">we'd love to hear from you?</span>
+          </p>
+          <h6 class="text-uppercase fw-bold mb-4"><br>
+            <img class="image-91" src="images/logo.png">
+          </h6>
+        </div>
+
+      </div>
+
+    </div>
+    <hr width="50%" color="green" align-items="center" />
+    <div class="text-center p-2 text-white">
+      © orion Copyright 2023.
+      <a class="text-decoration-none text-white fw-bold" href="">All Rights are Reserved</a>
+    </div>
+  </section>
+  <!-- Sliding page -->
+  <div class="slide-in ">
+    <div class="container">
+      <div class="row ">
+        <div style="overflow: hidden;" class="col-12 mt-3 d-flex justify-content-end ">
+          <button class="border-0 slideButton"><svg xmlns="http://www.w3.org/2000/svg" width="24.773" height="24.773"
+              viewBox="0 0 24.773 24.773">
+              <g id="noun-cancel-1029822" transform="translate(-155.06 -85.059)">
+                <path id="Path_2306" data-name="Path 2306"
+                  d="M167.447,85.059a12.387,12.387,0,1,0,12.387,12.387A12.386,12.386,0,0,0,167.447,85.059Zm5.83,16.465-1.751,1.751L167.447,99.2l-4.079,4.079-1.752-1.751,4.079-4.079-4.079-4.079,1.752-1.751,4.079,4.078,4.078-4.079,1.751,1.751L169.2,97.446Z"
+                  fill="#c5a47e" />
+              </g>
+            </svg></button>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-4 offset-1">
+          <h5 class="text-slide">Show Timing</h5>
+          <img class="img-slide mt-3 " src="images/movie1.png" alt="" srcset="">
+          <h5 class="mt-2 text-slide">The kerala Story</h5>
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-12 mt-3 row2">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="box">
+                  <p class="day mb-1 ">SUN</p>
+                  <p class="date">21 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1 ">SAT</p>
+                  <p class="date">22 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">SUN</p>
+                  <p class="date">23 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">MON</p>
+                  <p class="date">24 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">TUE</p>
+                  <p class="date">24 Jun</p>
+                </div>
+                <div class="box last-box">
+                  <p class="day  mb-1">WED</p>
+                  <p class="date">24 Jun</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="box">
+                  <p class="day mb-1 ">FRI</p>
+                  <p class="date ">21 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1 ">SAT</p>
+                  <p class="date">22 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">SUN</p>
+                  <p class="date">23 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">MON</p>
+                  <p class="date">24 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">TUE</p>
+                  <p class="date">24 Jun</p>
+                </div>
+                <div class="box last-box">
+                  <p class="day  mb-1">WED</p>
+                  <p class="date">24 Jun</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="d-flex justify-content-center">
+                <div class="box">
+                  <p class="day mb-1 ">FRI</p>
+                  <p class="date ">21 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1 ">SAT</p>
+                  <p class="date">22 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">SUN</p>
+                  <p class="date">23 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">MON</p>
+                  <p class="date">24 Jun</p>
+                </div>
+                <div class="box">
+                  <p class="day mb-1">TUE</p>
+                  <p class="date">24 Jun</p>
+                </div>
+                <div class="box last-box">
+                  <p class="day  mb-1">WED</p>
+                  <p class="date">24 Jun</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <g id="vuesax_linear_arrow-down" data-name="vuesax/linear/arrow-down"
+                transform="translate(24) rotate(90)">
+                <g id="arrow-down" transform="translate(0 0)">
+                  <path id="Vector" d="M15.84,0,9.32,6.52a1.986,1.986,0,0,1-2.8,0L0,0" transform="translate(4.08 8.95)"
+                    fill="none" stroke="#9f9f9f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+                  <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)"
+                    fill="none" opacity="0" />
+                </g>
+              </g>
+            </svg>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <g id="vuesax_linear_arrow-down" data-name="vuesax/linear/arrow-down"
+                transform="translate(24) rotate(90)">
+                <g id="arrow-down">
+                  <path id="Vector" d="M15.84,7.1,9.32.577a1.986,1.986,0,0,0-2.8,0L0,7.1"
+                    transform="translate(4.08 7.952)" fill="none" stroke="#c5a47e" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2.5" />
+                  <path id="Vector-2" data-name="Vector" d="M0,24H24V0H0Z" transform="translate(24 24) rotate(180)"
+                    fill="none" opacity="0" />
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-3 offset-1">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">10:00 AM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">11:00 AM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">12:00AM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 offset-1 mt-4">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">1:00PM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 mt-4 ">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">2:00 PM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 mt-4 ">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">3:00 PM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 offset-1 mt-4">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">1:00PM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 mt-4 ">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">2:00 PM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+          <div class="col-3 mt-4 ">
+            <div class="box2 text-center">
+              <p class="day mb-0 mt-1">3:00 PM</p>
+              <p class="date mb-1">ATMOS</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function toggleFilterContent() {
+      var filterContent = document.getElementById("filterContent");
+      if (filterContent.style.display === "none") {
+        filterContent.style.display = "block";
+      } else {
+        filterContent.style.display = "none";
+      }
+    }
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var slideButtons = document.querySelectorAll('.slideButton');
+      var slideIn = document.querySelector('.slide-in');
+
+      for (var i = 0; i < slideButtons.length; i++) {
+        slideButtons[i].addEventListener('click', function (event) {
+          event.stopPropagation(); // Prevent outside click event from triggering
+
+          slideIn.classList.toggle('active');
+        });
+      }
+
+      document.addEventListener('click', function (event) {
+        if (!slideIn.contains(event.target)) {
+          slideIn.classList.remove('active');
+        }
+      });
+    });
+
+
+  </script>
+  <!-- <script>
+    window.onload = (() => {
+       dconst day  = new= Date();
+      document.getElementById('date-fn').innerHmTML +=d getDayName(dany.getD ay())
+    })
+
+    const getDayName = num => {
+      switch (num) {
+        case( 
+        case 0: return "SUN"
+        case 1: return "MON"
+        case 2: return "Tue"
+        case 3: return "Wed"
+        case 4: return "Thurs"
+        case 5: return "Fri"
+        case 6: return "Sate"
+     }
+  "  }
+   </script> -->
+  <scrpipt src="jss/cinema.js">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

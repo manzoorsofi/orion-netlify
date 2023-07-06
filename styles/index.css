@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* overflow: hidden; */
+}
+.parent {
+	overflow: auto; /* This enables scrolling */
+	height: 100vh; /* Set a fixed height for the container */
+}
+.parents {
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	/* height: auto; */
+	position: relative;
+	display: flex;
+	/* overflow: hidden; */
+}
+
+.shade {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 1)
+	);
+}
+
+.shade img {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 350px;
+}
+
+.div-2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.logo {
+	width: 200px;
+}
+
+/* .mains {
+	height: 80%;
+	display: flex;
+} */
+
+.text-1 {
+	color: #ffffff;
+	font-size: 55px;
+	font: normal normal bold 60px/64px Gilroy;
+	display: inline-block;
+}
+.small-one {
+	text-align: right;
+}
+.first-1 {
+	width: 300px;
+	height: 202px;
+	border: 5px solid #c5a47e;
+	/* text-align: left; */
+}
+.text-2 {
+	font: normal normal normal 20px/14px Gilroy-Bold;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 17px 0;
+}
+.text-extra {
+	text-align: start;
+}
+/* for responsive  */
+@media (max-width: 576px) {
+	.text-1 {
+		font-size: 35px;
+		margin-top: -30px;
+	}
+	.first-1 {
+		width: 265px;
+		height: 145px;
+		border: 5px solid #c5a47e;
+	}
+}
+.roww {
+	position: fixed;
+	top: 500px;
+}
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+	.oye {
+		margin-top: 65px !important;
+	}
+	.text-extra {
+		margin-top: 65px;
+	}
+}
+.logo-cont {
+	display: flex;
+	justify-content: start;
+	margin: 30px 0;
+}
+
+#omabg {
+	text-align: left;
+}
+
+@media (max-width: 991px) {
+	.roww {
+		top: 200px;
+	}
+	.logo-cont {
+		justify-content: center;
+	}
+	#omabg {
+		text-align: center;
+	}
+}
+
+@media (max-width: 576px) {
+	.roww {
+		top: 125px;
+	}
+}

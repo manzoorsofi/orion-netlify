@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../sohail"
+		},
+		{
+			"path": "../Orion UI"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sohail"
+	}
+}

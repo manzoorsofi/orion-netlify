@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Webestica.com">
+  <meta name="description" content="Bootstrap based Creative Agency Portfolio Theme">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Rubik:wght@400;500;700&family=Spartan:wght@400;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- <title>orion</title> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-CuAqljweS8LshllWcTtzW3MzZP9KepNboOoLzCnFXtFSSCtFSxVRrSnQZcFJXpti2ZXFCaJx9czkbvXrKbX2qA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/orion.css">
+</head>
+
+<body>
+  <div id="preloader">
+    <img src="images/1480.gif" alt="Loading...">
+  </div>
+  <div class="background-video">
+    <video autoplay loop muted>
+      <source src="images/rain.mp4" type="video/mp4">
+    </video>
+    <div style="height: 100%; justify-content: flex-start;" class="content">
+      <nav class="navbar navbar-expand-lg nav-bg navbar-light ">
+        <div class="container-fluid d-flex align-items-center navs-height">
+
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo.png" alt="your-image" width="140" height="40"
+              class="d-inline-block align-text-top logo-real">
+          </a>
+          <div class=" dropdowns-cont align-items-center justify-content-end">
+            <a style=" text-decoration: none; font-weight: 800; font-size: 14px; padding: 0;"
+              class=" nav-link  text-001">
+              Orion Mall At Brigade Gateway</a>
+            <div class="dropdown  position-relative">
+              <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+              <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+                id="dropdownContent">
+
+                <a href="#">Avenue Mall</a>
+                <a href="#">Uptown Mall</a>
+              </div>
+            </div>
+            <a style="text-decoration: none; font-weight: 400; font-size: 14px; padding: 0 5px;"
+              class="nav-link text-001">
+              Other Retail</a>
+            <div class="dropdown  position-relative">
+              <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+              <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+                id="dropdownContent">
+                <a href="#">Avenue Mall</a>
+                <a href="#">Uptown Mall</a>
+              </div>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul style="padding:0;" class="navbar-nav d-flex justify-content-between align-items-center">
+              <li class="nav-item">
+                <a class="nav-link text-001" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href="#">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href=" #">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href=" #">Events</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-001" href=" #">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href=" #">Gift card</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href=" #">Mall Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href=" #">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-001" href=" #"><img class="magnify-icon" src="images/svgs/search1.svg"
+                    alt=""></a>
+              </li>
+            </ul>
+          </div>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="dropdowns-cont2">
+            <a style="text-decoration: none; font-weight: 800; font-size: 14px; padding: 0;"
+              class=" nav-link  text-001">
+              Orion Mall At Brigade Gateway</a>
+            <div class="dropdown  position-relative">
+              <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+              <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+                id="dropdownContent">
+
+                <a href="#">Avenue Mall</a>
+                <a href="#">Uptown Mall</a>
+              </div>
+            </div>
+            <a style="text-decoration: none; font-weight: 400; font-size: 14px; padding: 0 5px;"
+              class="nav-link text-001">
+              Other Retail</a>
+            <div class="dropdown  position-relative">
+              <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+              <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+                id="dropdownContent">
+                <a href="#">Avenue Mall</a>
+                <a href="#">Uptown Mall</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- <div class="row hello mt-10 position-absolute">
+        <div class="d-flex flex-row m-0 p-0 justify-content-lg-start">
+          <button class="botton-prev mt-5 bg-primary">PREW<img class="image-arroww" src="/images/right_arrow.png">
+          </button>
+          <button class="botton-next mt-5 bg-secondary">NEXT<img class="image-arroww" src="/images/right_arrow.png">
+          </button>
+        </div>
+
+      </div> -->
+      <div style="height: 100%;" class="rec-start position-absolute top-0 start-0 m-0 p-0 flex-column">
+        <div class="rec-start-inner" style="height: 400px;">
+          <img class="mt-4" style="width: 160px;
+          height: 45px;" src="images/logo.png" alt="">
+          <div class="d-flex justify-content-center mt-5" style="margin-left: 75px;">
+            <h5 class="rec-text1">/ 03</h5>
+          </div>
+          <div class="d-flex justify-content-center mt-1 mb-5">
+            <h1 style="color:#C5A47E; font-weight: 600; font-size: 50px; margin-right: 10px;">01</h1>
+          </div>
+        </div>
+        <div style="height: 400%; padding: 25px 0" class="rec-start-2 d-flex justify-content-center align-items-end">
+          <div class="d-flex flex-column justify-content-end">
+            <div class=" mb-3">
+              <img class="rec-image" src="images/instagram.png" alt="">
+            </div>
+            <div class="mb-3">
+              <img class="rec-image" src="images/facebook.png" alt="">
+            </div>
+            <div class="mb-3">
+              <img class="rec-image" src="images/twitter.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="search-container">
+          <img class="search-icon " src="images/svgs/search.svg" alt="Search Icon">
+          <input class="search-input " type="text" placeholder="What are you looking for? Shoes…">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="row bottom-row">
+    <b class="bottom-tax text-center">Bengaluru’s Premier Shopping Destination</b>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row justify-content-sm-center mt-2">
+        <div class="col-lg-4 col-md-6 col-sm-10 col-12">
+          <h1 class="text-brands">Brands, Brands <br /> And More<br /> Brands!</h1>
+          <p>
+            We take immense pride in the wide array of brands we have in our three malls. From self-care to fashion and
+            accessories and a number of world-famous restaurant chains, we truly have it all.
+          </p>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 justify-content-evenly">
+          <div class="col-sm-8 col-md-12 col-lg-12 mb-6">
+            <div class="tiny-slider">
+              <div class="tiny-slider-inner" data-autoplay="false" data-gutter="30" data-arrow="false" data-dots="true"
+                data-items="1">
+                <!-- Slider items -->
+                <div class="item">
+                  <div class="row justify-content-evenly  mt-0">
+                    <div class="col-md-4  col-6  logo">
+                      <img src="../images/logos1.png" alt="Brand 1">
+                    </div>
+                    <div class="col-md-4  col-6 logo ">
+                      <img src="../images/logos2.png" alt="Brand 2">
+                    </div>
+                    <div class="col-md-4  col-6 logo ">
+                      <img src="../images/logos3.png" alt="Brand 3">
+                    </div>
+                    <div class="col-md-4  col-6 logo">
+                      <img src="../images/logos4.png" alt="Brand 1">
+                    </div>
+                    <div class="col-md-4  col-6 logo ">
+                      <img src="../images/logos5.png" alt="Brand 2">
+                    </div>
+                    <div class="col-md-4  col-6 logo">
+                      <img src="../images/logos6.png" alt="Brand 3">
+                    </div>
+                    <div class="col-md-4  col-6 logo">
+                      <img src="../images/logos7.png" alt="Brand 1">
+                    </div>
+                    <div class="col-md-4  col-6 logo ">
+                      <img src="../images/logos8.png" alt="Brand 2">
+                    </div>
+                    <div class="col-md-4  col-6 logo">
+                      <img src="../images/logos9.png" alt="Brand 3">
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row justify-content-evenly mt-0">
+                    <div class="col-lg-4   col-6  logo">
+                      <img src="../images/logos1.png" alt="Brand 1">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos2.png" alt="Brand 2">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos3.png" alt="Brand 3">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos4.png" alt="Brand 1">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos5.png" alt="Brand 2">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos6.png" alt="Brand 3">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos7.png" alt="Brand 1">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos8.png" alt="Brand 2">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos9.png" alt="Brand 3">
+                    </div>
+                  </div>
+                </div>
+                <div class="item  ">
+                  <div class="row justify-content-evenly mt-0">
+                    <div class="col-lg-4   col-6  logo">
+                      <img src="../images/logos1.png" alt="Brand 1">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos2.png" alt="Brand 2">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos3.png" alt="Brand 3">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos4.png" alt="Brand 1">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos5.png" alt="Brand 2">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos6.png" alt="Brand 3">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos7.png" alt="Brand 1">
+                    </div>
+                    <div class="col-lg-4  col-6 logo ">
+                      <img src="../images/logos8.png" alt="Brand 2">
+                    </div>
+                    <div class="col-lg-4  col-6 logo">
+                      <img src="../images/logos9.png" alt="Brand 3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="offers">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center offers-text">OUR OFFEERS</h1>
+        </div>
+      </div>
+      <!-- events carousal -->
+      <div class="tiny-slider">
+        <div class="tiny-slider-inner" data-autoplay="true" data-gutter="30" data-arrow="true" data-dots="5"
+          data-items-xl="4" data-items-md="2" data-items-sm="2" data-items-xs="1">
+
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers1.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers2.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers3.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers4.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2 offer-images">
+              <img class="offer-imagess" src="/images/offers1.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers2.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers4.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2 offer-images">
+              <img class="offer-imagess" src="/images/offers1.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-2  offer-images">
+              <img class="offer-imagess" src="/images/offers2.png" alt="">
+              <p class="text-one">24th Apr 2023, 5hr ago</p>
+              <p class="text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button class="botton">KNOW MORE <img class="image-arroww" src="/images/right_arrow.png"> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section4">
+    <div class="container gift-card-container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center gift-cards">Luxe <span class="cards"> GIFT CARDS</span></h1>
+        </div>
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col-lg-8 cards-background">
+            <div class="row">
+              <div class="col-lg-5 col-sm-10">
+                <div class="content">
+                  <h5 class="text-11">Gift Your <br> Loved Ones </h5>
+                  <img class="image-11" src="../images/giftcards4.png  " alt="">
+                  <a href="gift-cards.html"> <button class=" mt-2 btn-011">Know More <i
+                        class="fas fa-arrow-right"></i></button></a>
+
+                </div>
+              </div>
+              <div class="col-lg-7 ">
+                <div class="content">
+                  <!-- <img class="image-12" src="../images/giftcards5.png" alt=""> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section5">
+
+    <div class="col-12 mb-6">
+      <h1 class="text-center gift-cards">EVENTS <span class="cards">IN THE PIPELINE</span></h1>
+      <div class="tiny-slider">
+        <div class="tiny-slider-inner" data-autoplay="true" data-gutter="30" data-arrow="true" data-dots="5"
+          data-items-xl="3" data-items-md="2" data-items-sm="2" data-items-xs="1">
+
+          <div class="item">
+            <div class="">
+              <img class="image-002" src="images/events01.png" alt="Slide 1">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-001" src="images/events02.png" alt="Slide 2">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-002" src="images/events03.png" alt="Slide 3">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-002" src="images/events01.png" alt="Slide 4">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-001" src="images/events02.png" alt="Slide 5">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-002" src="images/events03.png" alt="Slide 6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section6">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
+          <!-- <img class="image-20" src="/images/cinema2.png" alt="# "> -->
+        </div>
+        <di class="col-lg-4 col-md-6 col-sm-12 ">
+          <h3 class="text-60">CINEMAS</h3>
+          <h1 class="text-61">A Cinematic experience Like Never Before </h1>
+          <p class="text-62">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perferendis commodi
+            temporibus qui, libero
+            nobis? Dolore at maiores odit ex reiciendis dolor perspiciatis, similique voluptas in pariatur corrupti
+            quidem ipsum.</p>
+          <button class="button-6">Check What's Playing</button>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="section7">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h3 class="text-70">
+            STAY TUNED <span class="text-711">TO OUR CHANNELS</span>
+          </h3>
+        </div>
+      </div>
+      <div class="row row2 ">
+        <div class=" col-lg-3 col-md-4 col-sm-6 mt-3 text-center d-flex justify-content-center">
+          <img class="image-70" src="/images/facebook.png" alt="">
+          <p class="px-3 mb-2 text-71">
+            orionmall
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 text-center d-flex justify-content-center">
+          <img class="image-70" src="/images/instagram.png" alt="">
+          <p class="px-3 mb-2 text-71">
+            orionmall
+          </p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 text-center d-flex justify-content-center">
+          <img class="image-70" src="/images/twitter.png" alt="">
+          <p class="px-3 mb-2 text-71">
+            orionmall
+          </p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 text-center d-flex justify-content-center">
+          <img class="image-70" src="/images/youtube.png" alt="">
+          <p class="px-3 mb-2 text-71">
+            orionmall
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center row3">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <img class="image-71" src="images/channel1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <img class="image-71" src="images/channel2.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <img class="image-71" src="images/channel3.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <img class="image-71" src="images/channel3.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <img class="image-71" src="images/channel2.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+          <img class="image-71" src="images/channel1.png" alt="">
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <section class="section8">
+    <div class="container">
+      <div class="row">
+        <h5 class="text-80">SERVICES</h5>
+      </div>
+      <div class="row">
+        <h5 class="text-81">Your Comfort And <br /> Convenience Is Our Priority</h5>
+      </div>
+      <div class="row row83">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+          <img class="icons-011" src="images/svgs/service1.svg" alt="#">
+          <h5 class="text-85">
+            Information Desk
+          </h5>
+          <p class="text-86"> All Levels &nbsp;|&nbsp; 022-88888888</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+          <img class="icons-011" src="images/svgs/service2.svg" alt="#">
+          <h5 class="text-85">
+            Wheel Chair Assistance
+          </h5>
+          <p class="text-86"> Ground Floor &nbsp;|&nbsp; 022-88888888</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+          <img class="icons-011" src="images/svgs/service3.svg" alt="#">
+          <h5 class="text-85">
+            WiFi
+          </h5>
+          <p class="text-86"> All Levels &nbsp;|&nbsp; 022-88888888</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+          <img class="icons-011" src="images/svgs/service4.svg" alt="#">
+          <h5 class="text-85">
+            Lost & Found
+          </h5>
+          <p class="text-86"> help@orionmall.com</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+
+          <img class="icons-011" src="images/svgs/service5.svg" alt="#">
+          <h5 class="text-85">
+            Baby Care Room
+          </h5>
+          <p class="text-86"> Ground Floor|&nbsp; 022-88888888</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+          <img class="icons-011" src="images/svgs/service6.svg" alt="#">
+          <h5 class="text-85">
+            Baby Strollers
+          </h5>
+          <p class="text-86"> Ground Floor|&nbsp; 022-88888888</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
+          <img class="icons-011" src="images/svgs/service7.svg" alt="#">
+          <h5 class="text-85">
+            First Aid
+          </h5>
+          <p class="text-86"> All Levels &nbsp;|&nbsp; 022-88888888</p>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center  ">
+          <img class="icons-011" src="images/svgs/service8.svg" alt="#">
+          <h5 class="text-85">
+            Baggage Counter
+          </h5>
+          <p class="text-86">help@orionmall.com </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section class="grey">
+    <div class="container text-center text-md-start mt-5 text-90">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+
+          <!-- <h6 class="text-uppercase fw-bold mb-4 text-dark">Contact</h6> -->
+          <p class="text-decoration-none text-white"> Modern, multilevel mall featuring popular chain stores, global
+            dining & an
+            artificial lake.</p>
+
+
+          <p class="text-decoration-none text-white"> Dr Rajkumar Rd,
+            Rajajinagar, Bengaluru, Karnataka 560055
+          </p>
+          <p class="text-decoration-none text-white"> 080672 82222</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+
+          <p>
+            <a href="#" class="text-decoration-none text-white">Brands</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">Dine</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">ENTERTAINMENT</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">Events</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <p>
+            <a href="#!" class="text-decoration-none text-white">Offers</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">Mall map</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">Contact</a>
+          </p>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+
+          <p class="text-decoration-none text-white">
+            Do You Feedback For us?<br /><span class="text-91">we'd love to hear from you?</span>
+          </p>
+          <h6 class="text-uppercase fw-bold mb-4"><br>
+            <img class="image-91" src="images/logo.png">
+          </h6>
+        </div>
+
+      </div>
+
+    </div>
+    <hr width="50%" color="green" align="center" />
+    <div class="text-center p-4 text-white">
+      © orion Copyright 2023.
+      <a class="text-decoration-none text-white fw-bold" href="">All Rights are Reserved</a>
+    </div>
+  </section>
+  <script src="/jss/orion.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+
+
+  <script src="assets/js/functions.js"></script>
+  <script>window.addEventListener('load', function () {
+      const preloader = document.getElementById('preloader');
+      preloader.style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>
