@@ -93,6 +93,7 @@
 }
 .text-extra {
 	text-align: start;
+	padding-left: 10px;
 }
 /* for responsive  */
 @media (max-width: 576px) {
