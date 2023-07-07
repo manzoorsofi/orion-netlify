@@ -11,10 +11,10 @@ galleryElements.forEach(function (element) {
 });
 
 // on-click setting bg image permenant
-function testclick(value) {
-	document.querySelector(".parents").src = value;
-	document.getElementById("current_image").value = value;
-}
+// function testclick(value) {
+// 	document.querySelector(".parents").src = value;
+// 	document.getElementById("current_image").value = value;
+// }
 
 // for pre-loader
 window.addEventListener("load", function () {
@@ -29,6 +29,10 @@ function changeContent(element) {
 	if (currentlyHovered && currentlyHovered !== element) {
 		// Restore the original content of the previously hovered element
 		restoreContent(currentlyHovered);
+		document.querySelector(".parents").src = element
+			.querySelector("a")
+			.querySelector("img")
+			.getAttribute("src");
 	}
 
 	if (!element.originalContent) {
@@ -37,11 +41,11 @@ function changeContent(element) {
 	}
 
 	element.innerHTML = `
-      <div style="flex-direction:column" class="col-lg-10 col-md-7 col-8  d-flex justify-content-evenly">
-        <p id="omabg" class="text-1 mx-1 my-2">Orion Mall at Brigade Gateway</p>
-     <a class="text-2 text-extra" style="text-decoration: none;" href="orion.html">
+      <div style="flex-direction:column" class="col-lg-10 col-md-7 col-6  d-flex justify-content-evenly">
+        <p id="omabg" class="text-1 mx-1 my-2 w-100">Orion Mall at Brigade Gateway</p>
+        <a class="text-2 text-extra justify-content-center" style="text-decoration: none;" href="https://www.facebook.com">
     ENTER MALL HERE
-    <img style="width: 10%; height:auto;" src="images/right_arrow.png" class="right-arrow" />
+    <img style="width: 7%; height:auto;" src="images/svgs/right-arrow.svg" class="right-arrow" />
 </a>
 
       </div>

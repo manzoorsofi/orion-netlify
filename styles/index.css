@@ -100,7 +100,7 @@
 @media (max-width: 576px) {
 	.text-1 {
 		font-size: 35px;
-		margin-top: -30px;
+		/* margin-top: -30px; */
 	}
 	.first-1 {
 		width: 265px;
@@ -120,9 +120,6 @@
 	.oye {
 		margin-top: 65px !important;
 	}
-	/* .text-extra {
-		margin-top: 65px;
-	} */
 }
 .logo-cont {
 	display: flex;
@@ -131,9 +128,8 @@
 }
 
 #omabg {
-	text-align: left;
 	font-size: 56px;
-	line-height: 0.9;
+	line-height: 1;
 }
 
 @media (max-width: 991px) {
@@ -145,13 +141,17 @@
 	}
 	#omabg {
 		text-align: center;
-		font-size: 36px;
+		font-size: 42px;
 	}
 }
 
 @media (max-width: 576px) {
 	.roww {
 		top: 100px;
+	}
+	#omabg {
+		text-align: center;
+		font-size: 34px;
 	}
 }
 @media (max-width: 1401px) {
