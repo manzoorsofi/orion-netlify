@@ -111,6 +111,7 @@
 .roww {
 	position: fixed;
 	top: 500px;
+	width: 100%;
 }
 
 /* for magiuc */
@@ -150,7 +151,7 @@
 
 @media (max-width: 576px) {
 	.roww {
-		top: 125px;
+		top: 100px;
 	}
 }
 @media (max-width: 1401px) {
