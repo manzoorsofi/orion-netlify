@@ -151,3 +151,8 @@
 		top: 390px;
 	}
 }
+@media only screen and (max-width: 1020px) and (min-width: 220px) {
+	.roww {
+		top: 150px;
+	}
+}
