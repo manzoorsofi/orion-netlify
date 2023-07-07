@@ -22,13 +22,36 @@ window.addEventListener("load", function () {
 	preloader.style.display = "none";
 });
 
-// for changing text-1
-document.querySelector(".first-3").addEventListener("click", function () {
-	document.querySelector(".text-1").textContent =
-		"Avenue Mall at Brigade Gateway";
-});
+// for hovering text efffect
+let currentlyHovered = null;
 
-document.querySelector(".first-4").addEventListener("click", function () {
-	document.querySelector(".text-1").textContent =
-		"Uptown Mall at Brigade Gateway";
-});
+function changeContent(element) {
+	if (currentlyHovered && currentlyHovered !== element) {
+		// Restore the original content of the previously hovered element
+		restoreContent(currentlyHovered);
+	}
+
+	if (!element.originalContent) {
+		// Store the original content if it hasn't been stored yet
+		element.originalContent = element.innerHTML;
+	}
+
+	element.innerHTML = `
+      <div style="flex-direction:column" class="col-lg-10 col-md-7 col-8  d-flex justify-content-evenly">
+        <p id="omabg" class="text-1 mx-1 my-2">Orion Mall at Brigade Gateway</p>
+     <a class="text-2 text-extra" style="text-decoration: none;" href="orion.html">
+    ENTER MALL HERE
+    <img style="width: 10%; height:auto;" src="images/right_arrow.png" class="right-arrow" />
+</a>
+
+      </div>
+    `;
+
+	currentlyHovered = element;
+}
+
+function restoreContent(element) {
+	if (element.originalContent) {
+		element.innerHTML = element.originalContent;
+	}
+}

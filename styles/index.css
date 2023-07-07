@@ -71,13 +71,14 @@
 
 .text-1 {
 	color: #ffffff;
-	font-size: 55px;
-	font: normal normal bold 60px/64px Gilroy;
+	font-size: 30px;
+	font: normal normal bold 40px/48px Gilroy;
 	display: inline-block;
+	padding: 0;
 }
-.small-one {
+/* .small-one {
 	text-align: right;
-}
+} */
 .first-1 {
 	width: 300px;
 	height: 202px;
@@ -85,7 +86,7 @@
 	/* text-align: left; */
 }
 .text-2 {
-	font: normal normal normal 20px/14px Gilroy-Bold;
+	font: normal normal normal 15px/14px Gilroy-Bold;
 	letter-spacing: 1px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -109,15 +110,18 @@
 }
 .roww {
 	position: fixed;
-	top: 490px;
+	top: 500px;
 }
+
+/* for magiuc */
+
 @media only screen and (max-width: 991px) and (min-width: 576px) {
 	.oye {
 		margin-top: 65px !important;
 	}
-	.text-extra {
+	/* .text-extra {
 		margin-top: 65px;
-	}
+	} */
 }
 .logo-cont {
 	display: flex;
@@ -127,6 +131,8 @@
 
 #omabg {
 	text-align: left;
+	font-size: 56px;
+	line-height: 0.9;
 }
 
 @media (max-width: 991px) {
@@ -138,6 +144,7 @@
 	}
 	#omabg {
 		text-align: center;
+		font-size: 36px;
 	}
 }
 
@@ -156,3 +163,4 @@
 		top: 150px;
 	}
 }
+/* for magiuc */
