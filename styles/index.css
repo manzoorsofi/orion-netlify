@@ -90,10 +90,10 @@
 	letter-spacing: 1px;
 	color: #ffffff;
 	text-transform: uppercase;
-	margin: 17px 0;
+	margin: 15px 0;
 }
 .text-extra {
-	text-align: start;
+	text-align: center;
 	padding-left: 10px;
 }
 /* for responsive  */

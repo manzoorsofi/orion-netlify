@@ -42,11 +42,11 @@ function changeContent(element) {
 
 	element.innerHTML = `
       <div style="flex-direction:column" class="col-lg-10 col-md-7 col-6  d-flex justify-content-evenly">
-        <p id="omabg" class="text-1 mx-1 my-2 w-100">Orion Mall at Brigade Gateway</p>
-        <a class="text-2 text-extra justify-content-center" style="text-decoration: none;" href="https://www.facebook.com">
-    ENTER MALL HERE
-    <img style="width: 7%; height:auto;" src="images/svgs/right-arrow.svg" class="right-arrow" />
-</a>
+        <p id="omabg" class="text-1">Orion Mall at Brigade Gateway</p>
+     <a class="text-2 text-extra justify-content-center" style="text-decoration: none;" href="https://chat.openai.com/">
+          ENTER MALL HERE
+           <img style="width: 7%; height:auto;" src="images/svgs/right-arrow.svg" class="right-arrow" />
+     </a>
 
       </div>
     `;
