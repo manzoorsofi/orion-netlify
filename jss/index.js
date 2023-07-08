@@ -39,15 +39,14 @@ function changeContent(element) {
 		// Store the original content if it hasn't been stored yet
 		element.originalContent = element.innerHTML;
 	}
-
+	let url = "http://www.w3schools.com/";
 	element.innerHTML = `
       <div style="flex-direction:column" class="col-lg-10 col-md-7 col-6  d-flex justify-content-evenly">
         <p id="omabg" class="text-1">Orion Mall at Brigade Gateway</p>
-     <a class="text-2 text-extra justify-content-center" style="text-decoration: none;" href="https://chat.openai.com/">
+     <a href=${url} class="text-2 text-extra justify-content-center" style="text-decoration: none;">
           ENTER MALL HERE
            <img style="width: 7%; height:auto;" src="images/svgs/right-arrow.svg" class="right-arrow" />
      </a>
-
       </div>
     `;
 
