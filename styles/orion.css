@@ -114,9 +114,9 @@ video {
 	background-color: #f1f1f1;
 }
 
-/* .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
 	display: block;
-} */
+}
 .videoo {
 	margin-left: 0px;
 	margin-right: 0px;
@@ -219,8 +219,8 @@ video {
 	text-transform: capitalize;
 	opacity: 1;
 	text-align: start;
-	font-size: 40px;
-	font-weight: bolder;
+	font-size: 50px;
+	font-weight: 900;
 }
 .text-0101 {
 	font: normal normal normal 50px/50px Gilroy-Bold;
