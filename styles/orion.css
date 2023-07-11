@@ -61,11 +61,11 @@ video {
 }
 .text-001 {
 	text-align: right;
-	font: normal normal 600 20px/16px Gilroy;
 	letter-spacing: 0px;
 	color: white;
 	text-transform: capitalize;
 	opacity: 1;
+  font-family: "Poppins", sans-serif;
 }
 .text-001:hover {
 	color: gray;
@@ -73,6 +73,8 @@ video {
 .text-orion {
 	color: #f1f1f1;
 	font-size: 15px;
+  font-family: "Poppins", sans-serif;
+
 }
 .text-header,
 .text-011 {
@@ -257,9 +259,10 @@ video {
 .offers {
 	padding-bottom: 120px;
 	background-color: black;
-}div.tns-nav{
-  display: none;
 }
+/* div.tns-nav{
+  display: none;
+} */
 
 .offers-text {
 	font-size: 20px;
@@ -372,7 +375,7 @@ video {
 	margin-bottom: 50px;
 }
 .cards {
-	color: gold;
+	color:#caad88;
 }
 .cards-background {
 	background-image: url("../images/giftcards2.png");
@@ -433,11 +436,13 @@ video {
 	width: 100%;
 	display: flex;
 }
-/* .image-20{
+.image-20{
   position:absolute;
-  margin-bottom: 800px;
-  width: 250px;
-} */
+  width: 225px;
+  top: -50px;
+  /* margin-bottom: 900px; */
+
+}
 .text-60 {
 	font-size: 25px;
 	letter-spacing: 5.2px;
@@ -447,6 +452,7 @@ video {
 	padding-right: 0;
 	margin-top: 80px;
 	font-weight: 700;
+
 }
 .button-6 {
 	background-color: yellow;
@@ -599,6 +605,7 @@ video {
 		font-size: 35px;
 		font-weight: bolder;
 		margin-bottom: 10px;
+    margin-top: 10px;
 	}
 	.brand-paras {
 		margin-bottom: 40px;
@@ -637,6 +644,7 @@ video {
 	}
 	.navbar {
 		background-color: black;
+    padding-bottom: 70px;
 	}
   .line-remove{
     display: none;
@@ -673,7 +681,6 @@ video {
 	}
 	.text-001 {
 		text-align: left;
-		font: 600 20px / 16px Gilroy;
 		letter-spacing: 0px;
 		color: black;
 		text-transform: capitalize;
