@@ -40,7 +40,7 @@ function changeContent(element, mallName) {
 		element.originalContent = element.innerHTML;
 	}
 	element.innerHTML = `
-      <div style="flex-direction:column" class="col-lg-10 col-md-7 col-6  d-flex justify-content-evenly">
+      <div style="flex-direction:column" class="col-lg-12 col-md-7 col-6  d-flex justify-content-evenly">
         <p id="omabg" class="text-1">${mallName}</p>
      <a href="http://www.w3schools.com/" class="text-2 text-extra justify-content-center" style="text-decoration: none;">
           ENTER MALL HERE

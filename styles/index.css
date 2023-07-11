@@ -71,8 +71,7 @@
 
 .text-1 {
 	color: #ffffff;
-	font-size: 30px;
-	font: normal normal bold 40px/48px Gilroy;
+	font: normal normal bold 40px/46px Gilroy;
 	display: inline-block;
 	padding: 0;
 }
@@ -156,7 +155,7 @@
 }
 @media (max-width: 1401px) {
 	.roww {
-		top: 390px;
+		top: 340px;
 	}
 }
 @media only screen and (max-width: 1020px) and (min-width: 220px) {
