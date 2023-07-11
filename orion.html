@@ -113,31 +113,38 @@
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="dropdowns-cont2 m-2 mt-3">
+            <!-- another one  -->
+            <div class="dropdowns-cont2 mt-1 d-flex flex-column d-sm-none ">
               <a style="text-decoration: none; font-weight: 600; padding: 0;" class="text-orion">
-                Orion Mall At Brigade Gateway</a>
-              <div class="dropdown  position-relative">
-                <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
-                <div class="dropdown-content dropdown-small justify-content-center align-content-center"
-                  id="dropdownContent">
+                <div style="display: flex; align-items: center;">
+                  Orion Mall At Brigade Gateway
+                  <div class="dropdown position-relative">
+                    <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+                    <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+                      id="dropdownContent">
+                      <a class="text-001" href="#">Avenue Mall</a>
+                      <a class="text-001" href="#">Uptown Mall</a>
+                    </div>
+                  </div>
+                </div>
+              </a>
 
-                  <a class="text-001" href="#">Avenue Mall</a>
-                  <a class="text-001" href="#">Uptown Mall</a>
+              <a style="text-decoration: none; font-weight: 400; padding: 0;" class="text-orion mt-2">
+                <div style="display: flex; align-items: center; margin-right: 144px;">
+                  Other Retail
+                  <div class="dropdown position-relative">
+                    <img class="icon-01 mt-1" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+                    <div class="dropdown-content dropdown-small justify-content-start align-content-center"
+                      id="dropdownContent">
+                      <a class="text-001" href="#">Avenue Mall</a>
+                      <a class="text-001" href="#">Uptown Mall</a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              </br>
-              <a style="  text-decoration: none; font-weight: 400; font-size: 14px; padding: 0 5px;"
-                class=" text-orion">
-                Other Retail</a>
-              <div class="dropdown  position-relative">
-                <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
-                <div class="dropdown-content dropdown-small justify-content-start align-content-center"
-                  id="dropdownContent">
-                  <a class="text-001" href="#">Avenue Mall</a>
-                  <a class="text-001" href="#">Uptown Mall</a>
-                </div>
-              </div>
+              </a>
             </div>
+
+            <!-- another ends -->
           </div>
         </nav>
       </div>
@@ -479,6 +486,21 @@
           </div>
           <div class="item">
             <div class="">
+              <img class="image-002" src="images/events02.png" alt="Slide 6">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-002" src="images/events03.png" alt="Slide 4">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
+              <img class="image-001" src="images/events02.png" alt="Slide 5">
+            </div>
+          </div>
+          <div class="item">
+            <div class="">
               <img class="image-002" src="images/events03.png" alt="Slide 6">
             </div>
           </div>
@@ -663,6 +685,9 @@
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-1">
           <p>
+            <a href="#!" class="text-decoration-none text-white">News</a>
+          </p>
+          <p>
             <a href="#!" class="text-decoration-none text-white">Offers</a>
           </p>
           <p>
@@ -679,7 +704,10 @@
           <p class="text-decoration-none text-white">
             Do you have feedback for us?
           </p>
-          <p class=" text-91"> We'd love to hear from you</p>
+          <p class="text-91">
+            We'd love to hear from you
+            <img class="lastt" src="images/svgs/right-arrow.svg" alt="Your Image" />
+          </p>
           <h6 class="text-uppercase fw-bold mb-4 footer-1">
             <img class="image-91" src="images/logo.png">
           </h6>
