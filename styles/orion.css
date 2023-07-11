@@ -256,7 +256,7 @@ video {
 }
 /* for carousal */
 .tns-nav [data-nav]::after {
-	background-color: #fbcb04;
+	background-color: #c5a47e;
 	/* border: 10px solid black; */
 }
 /* css for section3 */
@@ -386,7 +386,7 @@ video {
 	background-image: url("../images/giftcards2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 456px;
 	opacity: 1;
 	position: relative;
 }
@@ -418,7 +418,7 @@ video {
 }
 .image-12 {
 	width: 550px;
-	height: 640px;
+	height: 600px;
 	position: absolute;
 	margin-top: 460px;
 }
@@ -806,5 +806,5 @@ video {
 	}
 }
 .lastt {
-	width: 8%;
+	width: 6%;
 }

@@ -25,7 +25,7 @@ window.addEventListener("load", function () {
 // for hovering text efffect
 let currentlyHovered = null;
 
-function changeContent(element) {
+function changeContent(element, mallName) {
 	if (currentlyHovered && currentlyHovered !== element) {
 		// Restore the original content of the previously hovered element
 		restoreContent(currentlyHovered);
@@ -41,7 +41,7 @@ function changeContent(element) {
 	}
 	element.innerHTML = `
       <div style="flex-direction:column" class="col-lg-10 col-md-7 col-6  d-flex justify-content-evenly">
-        <p id="omabg" class="text-1">Orion Mall at Brigade Gateway</p>
+        <p id="omabg" class="text-1">${mallName}</p>
      <a href="http://www.w3schools.com/" class="text-2 text-extra justify-content-center" style="text-decoration: none;">
           ENTER MALL HERE
            <img style="width: 7%; height:auto;" src="images/svgs/right-arrow.svg" class="right-arrow" />
