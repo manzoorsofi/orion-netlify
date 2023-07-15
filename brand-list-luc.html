@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand List</title>
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" href="styles/brand-list-luc.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="gilroy/Gilroy-Black.ttf">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="preloader">
+    <img src="images/1480.gif" alt="Loading...">
+  </div>
+  <!-- navbar starts -->
+  <nav style="padding: 1rem;" class="navbar navbar-expand-lg nav-bg navbar-light ">
+    <div class="container-fluid d-flex align-items-center navs-height">
+
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/logo.png" alt="your-image" class="d-inline-block align-text-top logo-logo">
+      </a>
+      <div class="dropdowns-cont">
+        <a style="text-decoration: none; font-weight: 800; font-size: 14px; padding: 0;" class="nav-link text-001">
+          Orion Mall At Brigade Gateway</a>
+        <div class="dropdown  position-relative">
+          <img class="icon-01" src="images/svgs/down.svg" alt="#" />
+          <span style="color: white;">&nbsp&nbsp;|&nbsp;&nbsp</span>
+          <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+            id="dropdownContent1">
+            <a href="#">Avenue Mall</a>
+            <a href="#">Uptown Mall</a>
+          </div>
+        </div>
+        <a style="text-decoration: none; font-weight: 400; font-size: 14px; padding: 0 5px;" class="nav-link text-001">
+          Other Retail</a>
+        <div class="dropdown  position-relative">
+          <img class="icon-01" src="images/svgs/down.svg" alt="#" />
+          <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+            id="dropdownContent2">
+            <a href="#">Avenue Mall</a>
+            <a href="#">Uptown Mall</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul style="padding:0;" class="navbar-nav d-flex justify-content-between align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-001" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href="#">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href=" #">Entertainment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href=" #">Events</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-001" href=" #">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href=" #">Gift card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href=" #">Mall Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href=" #">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-001" href=" #"><img class="magnify-icon" src="images/svgs/search1.svg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- another one  -->
+      <div class="dropdowns-cont2 d-flex flex-column d-sm-none">
+        <a style="text-decoration: none; font-weight: 600; padding: 0;" class="text-orion">
+          <div style="display: flex; align-items: center;">
+            Orion Mall At Brigade Gateway
+            <div class="dropdown position-relative">
+              <img class="icon-01" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+              <div class="dropdown-content dropdown-small justify-content-center align-content-center"
+                id="dropdownContent">
+                <a class="text-001" href="#">Avenue Mall</a>
+                <a class="text-001" href="#">Uptown Mall</a>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a style="text-decoration: none; font-weight: 400; padding: 0;" class="text-orion mt-2">
+          <div style="display: flex; align-items: center; margin-right: 144px;">
+            Other Retail
+            <div class="dropdown position-relative">
+              <img class="icon-01 mt-1" src="images/svgs/down.svg" alt="#" onclick="toggleDropdown()" />
+              <div class="dropdown-content dropdown-small justify-content-start align-content-center"
+                id="dropdownContent">
+                <a class="text-001" href="#">Avenue Mall</a>
+                <a class="text-001" href="#">Uptown Mall</a>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+    </div>
+    </div>
+  </nav>
+  <div class="bg-image ">
+    <img class="banner" src="images/brand-01.png">
+
+  </div>
+
+  <div class="bg-text d-flex justify-content-center flex-column align-items-center">
+    <h1 class="bac-text-1">Brands For You</h1>
+    <p class="bac-text-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad id fuga aut
+      sapiente. Ullam, fuga cumque aut nobis minus illum a ut, vitae neque dolorem, quaerat adipisci odit totam.</p>
+    <div class="search-flex-container bg-white ">
+      <div class="search-text-container bg-white p-2">
+        <img src="images/svgs/search.svg" class="search-icon" alt="" />
+        <input class="search-text " placeholder="What are you looking for? Shoes...">
+      </div>
+    </div>
+  </div>
+
+  <section style="background-color: #F7F7F7; padding-top: 50px; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-4 col-5 text-center text-line-1">
+          250 Brands
+        </div>
+        <div class="col-lg-6 col-md-4 col-2 line-remove mt-4">
+          <div style="border: 1px solid gray;"></div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-4 col-5 mt-2 text-center">
+          <img class="img-line-1" src="images/svgs/filter.svg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    <!-- cards -->
+    <div class="container d-flex flex-row mt-5 justify-content-center flex-wrap hello">
+      <div class=" card-hafsa">
+        <div class="card h-100">
+          <img src="images/brand-03.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button class="button-card">Offers Available </button>
+            <p class="card-para-1 mt-2">FOOD COURT / GIFT CARDS</p>
+            <h4 class="card-title mt-5">McDonald’s</h4>
+            <p class="card-para-2">Ground Floor</p>
+            <button class="card-arrow"> <img src="images/svgs/right-yellow.svg"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-hafsa ">
+        <div class="card h-100 ">
+          <img src="images/brand-02.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-para-1 cards-para-diff">SERVICES / CONVENIENCE / LOCAL BUSINESS / GIFT CARDS</h5>
+            <h4 class="card-title  card-title-diff">A Sure Fit</h4>
+            <p class="card-para-2">Ground Floor</p>
+            <button class="card-arrow"> <img src="images/svgs/right-yellow.svg"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-hafsa">
+        <div class="card h-100">
+          <img src="images/brand-04.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button class="button-card">Offers Available </button>
+            <p class="card-para-1 mt-2">FOOD COURT / GIFT CARDS</p>
+            <h4 class="card-title mt-5">All Star ELITE</h4>
+            <p class="card-para-2">Ground Floor</p>
+            <button class="card-arrow"> <img src="images/svgs/right-yellow.svg"></button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card-hafsa">
+        <div class="card h-100">
+          <img src="images/brand-02.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-para-1 cards-para-diff">SERVICES / CONVENIENCE / LOCAL BUSINESS / GIFT CARDS</h5>
+            <h4 class="card-title  card-title-diff">ZARA</h4>
+            <p class="card-para-2">Ground Floor</p>
+            <button class="card-arrow"> <img src="images/svgs/right-yellow.svg"></button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card-hafsa">
+        <div class="card h-100">
+          <img src="images/brand-04.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button class="button-card">Offers Available </button>
+            <p class="card-para-1 mt-2">FOOD COURT / GIFT CARDS</p>
+            <h4 class="card-title mt-5">SAMSUNG</h4>
+            <p class="card-para-2">Ground Floor</p>
+            <button class="card-arrow"> <img src="images/svgs/right-yellow.svg"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-hafsa">
+        <div class="card h-100">
+          <img src="images/brand-02.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-para-1 cards-para-diff">SERVICES / CONVENIENCE / LOCAL BUSINESS / GIFT CARDS</h5>
+            <h4 class="card-title  card-title-diff">All Star ELITE</h4>
+            <p class="card-para-2">Ground Floor</p>
+            <button class="card-arrow"> <img src="images/svgs/right-yellow.svg"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="grey">
+    <div class="container text-center text-md-start mt-4 text-90">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 footer-1">
+          <!-- Content -->
+
+          <!-- <h6 class="text-uppercase fw-bold mb-4 text-dark">Contact</h6> -->
+          <p class="text-decoration-none text-white"> Modern, multilevel mall featuring popular chain stores, global
+            dining & an
+            artificial lake.</p>
+
+
+          <p class="text-decoration-none text-white"> Dr Rajkumar Rd,
+            Rajajinagar, Bengaluru, Karnataka 560055
+          </p>
+          <p class="text-decoration-none text-white"> 080672 82222</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mb-sm-2 footer-1 col-6">
+          <p> <a href="#" class="text-decoration-none text-white">BRANDS</a></p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">DINE</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">ENTERTAINMENT</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">EVENTS</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-white">PR</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-1 col-6">
+          <p>
+            <a href="#!" class="text-decoration-none text-white">NEWS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">OFFERS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">MALL MAP</a>
+          </p>
+          <p>
+            <a href="#!" class="text-decoration-none text-white">CONTACT US</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer-1 d-flex align-items-md-end flex-column">
+          <!-- Links -->
+
+          <p class="text-decoration-none text-white">
+            Do you have feedback for us?
+          </p>
+          <p class="text-91">
+            We'd love to hear from you
+            <img class="lastt" src="images/svgs/right-arrow.svg" alt="Your Image" />
+          </p>
+          <h6 class="text-uppercase fw-bold mb-4 footer-1">
+            <img class="image-91" src="images/logo.png">
+          </h6>
+        </div>
+      </div>
+
+    </div>
+    <div class="container line-remove mb-4">
+      <div style="border: 1px solid gray;margin: 0px 30px;"></div>
+    </div>
+    <div class="text-center text-white line-add footer-last">
+      © Orion Copyright 2023.
+      <a class="text-decoration-none text-white fw-bold" href="">All Rights are Reserved</a>
+    </div>
+  </section>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>window.addEventListener('load', function () {
+    const preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+  });
+</script>
+<script src="jss/small-dropdown.js"></script>
+</body>
+
+</html>
